@@ -1,5 +1,5 @@
-import Counter from './components/Counter/counter.js';
 import { shallow } from 'enzyme';
+import Counter from './components/Counter/Counter';
 
 
 describe('Counter Testing', () => {

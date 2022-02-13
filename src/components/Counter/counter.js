@@ -1,9 +1,8 @@
 import { useState } from 'react/cjs/react.development';
 import './counter.css';
 
-function App() {
+function Counter() {
 const [counter, setCounter] = useState(0);
-
 
   return (
     <>
@@ -21,4 +20,4 @@ const [counter, setCounter] = useState(0);
   );
 }
 
-export default App;
+export default Counter;
