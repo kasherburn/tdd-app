@@ -14,7 +14,7 @@ const [counter, setCounter] = useState(0);
 		</div>
 		<div className='btn-container'>
 			<button id='increment-btn' onClick={() => setCounter(counter + 1)}>Increment</button>
-			<button id='decrement-btn' onClick={() => counter === 0 ? '' : setCounter(counter - 1)}>Decrement</button>
+			<button id='decrement-btn' onClick={() => counter > 0 ? setCounter(counter - 1) : null}>Decrement</button>
 		</div>
     </>
   );
